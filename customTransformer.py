@@ -7,7 +7,7 @@ import torch.optim as optim
 import torch.utils.data as data
 import math
 
-
+# How the machine learning understands context using calculations
 class MultiHeadAttention(nn.Module):
     def __init__(self, d_model, n_heads, dropout: float):
         super(MultiHeadAttention, self).__init__()
